@@ -1,0 +1,145 @@
+/* Color variables inicialized into `:root` */
+:root {
+    /* primary colors */
+    --Dark-cyan: hsl(185, 75%, 39%);
+    --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --Dark-grayish-blue: hsl(227, 10%, 46%);
+    /* neutral colors */
+    --Dark-gray: hsl(0, 0%, 59%);
+}
+
+/* Basic and reset styles */
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--Dark-cyan);
+    position: relative;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Styles for Patterns */
+.pattern-up {
+    position: absolute;
+    width: 60%;
+    left: -119px;
+    top: -571.84px;
+    z-index: -9999;
+}
+
+.pattern-down {
+    position: absolute;
+    width: 85%;
+    top: 600px;
+    right: -500px;
+    z-index: -9999;
+}
+
+/* Styles for main section */
+.main {
+    background-color: #FFF;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 15px;
+}
+
+.card-pattern {
+    width: 100%;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+}
+
+.pfp {
+    border-radius: 50%;
+    border: 5px solid #FFF;
+    width: 96px;
+    margin-top: -52px;
+}
+
+.name-div {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+/* Styles for texts */
+.main-text {
+    color: #2E3349;
+    text-align: center;
+    font-family: 'Kumbh Sans';
+    font-size: 1.325rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.age {
+    color: #6B7082;
+    text-align: center;
+    font-family: 'Kumbh Sans';
+    font-size: 1.325rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.secondary-text {
+    color: #6B7082;
+    text-align: center;
+    font-family: 'Kumbh Sans';
+    font-size: 1.075rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    border-top: 2px solid #E8E9EC;
+}
+
+.info .secondary-text {
+    margin-top: 0;
+    font-size: 0.875rem;
+}
+
+.info .main-text {
+    margin-bottom: 2px;
+}
+
+/* Responsive design for devices with 425px and less width */
+@media only screen and (max-width: 425px){
+    .pattern-1 {
+        width: 120%;
+        left: -240px;
+        top: -200px;
+    }
+    .pattern-2 {
+        width: 120%;
+        right: -245px;
+        top: 445px;
+    }
+    .main {
+        width: 90%;
+    }
+}
