@@ -48,5 +48,3 @@ Every day I acquire and learn modern and different approaches to solving problem
 - Website - [My Portfolio](https://luka-khokhashvili.github.io/Portfolio/)
 - LinkedIn - [@luka-khokhashvili](https://www.linkedin.com/in/luka-khokhashvili-8179b7285/)
 - GitHub - [@Luka-khokhashvili](https://github.com/Luka-khokhashvili)
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
